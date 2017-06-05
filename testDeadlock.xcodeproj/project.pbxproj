@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		048B3A141EC6FF2D009E254E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B3A131EC6FF2D009E254E /* main.m */; };
+		04CEB21C1EC7034E00208919 /* PhilosopherThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB21B1EC7034E00208919 /* PhilosopherThread.m */; };
+		04CEB21F1EC70E0C00208919 /* DiningFork.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB21E1EC70E0C00208919 /* DiningFork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		048B3A101EC6FF2D009E254E /* testDeadlock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testDeadlock; sourceTree = BUILT_PRODUCTS_DIR; };
 		048B3A131EC6FF2D009E254E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CEB21A1EC7034E00208919 /* PhilosopherThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhilosopherThread.h; sourceTree = "<group>"; };
+		04CEB21B1EC7034E00208919 /* PhilosopherThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhilosopherThread.m; sourceTree = "<group>"; };
+		04CEB21D1EC70E0C00208919 /* DiningFork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningFork.h; sourceTree = "<group>"; };
+		04CEB21E1EC70E0C00208919 /* DiningFork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningFork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				048B3A131EC6FF2D009E254E /* main.m */,
+				04CEB21A1EC7034E00208919 /* PhilosopherThread.h */,
+				04CEB21B1EC7034E00208919 /* PhilosopherThread.m */,
+				04CEB21D1EC70E0C00208919 /* DiningFork.h */,
+				04CEB21E1EC70E0C00208919 /* DiningFork.m */,
 			);
 			path = testDeadlock;
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				048B3A141EC6FF2D009E254E /* main.m in Sources */,
+				04CEB21F1EC70E0C00208919 /* DiningFork.m in Sources */,
+				04CEB21C1EC7034E00208919 /* PhilosopherThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +258,7 @@
 				048B3A191EC6FF2D009E254E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
